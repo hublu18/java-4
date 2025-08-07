@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Toggle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section id="pass_toggler">
+    <div class="container">
+      <form onsubmit="event.preventDefault()">
+        <input class="input" type="password" placeholder="Password" id="passwordField">
+        <div class="btns">
+          <button type="button" class="close_eye">
+            <iconify-icon icon="ion:eye-off" width="24" height="24"></iconify-icon>
+          </button>
+          <button type="button" class="eye_on">
+            <iconify-icon icon="mingcute:eye-line" width="24" height="24"></iconify-icon>
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <script src="https://code.iconify.design/iconify-icon/3.0.0/iconify-icon.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
